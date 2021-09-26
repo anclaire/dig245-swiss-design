@@ -1,2 +1,124 @@
 
 /* css */
+
+/*phone S 640x900*/
+
+position: relative;
+width: 640px;
+height: 900px;
+
+background: #F03227;
+/* Rectangle 19 */
+
+
+.ctri {
+position: absolute;
+width: 254.6px;
+height: 254.6px;
+left: 192.25px;
+top: 486.37px;
+
+background: #000113;
+border-radius: 0px;
+}
+
+/* Rectangle 20 */
+.rmask {
+position: absolute;
+width: 362.56px;
+height: 192.32px;
+left: 55.66px;
+top: 605.62px;
+
+background: #F03227;
+border-radius: 0px;
+transform: rotate(-45deg);
+}
+
+/* Rectangle 21 */
+.rtop {
+position: absolute;
+width: 398.66px;
+height: 149.5px;
+left: 190.44px;
+top: 326px;
+
+background: #000113;
+}
+
+/* Rectangle 22 */
+.rright {
+position: absolute;
+width: 127.75px;
+height: 266.38px;
+left: 461.34px;
+top: 474.59px;
+
+background: #000113;
+}
+
+/* Rectangle 23 */
+.rbottom {
+position: absolute;
+width: 540px;
+height: 146.78px;
+left: 50px;
+top: 752.74px;
+
+background: #000113;
+}
+
+/* Rectangle 24 */
+.rleft {
+position: absolute;
+width: 128.66px;
+height: 425.84px;
+left: 50px;
+top: 326.91px;
+
+background: #000113;
+}
+
+/* radiohead */
+.title {
+position: absolute;
+width: 400px;
+height: 130px;
+left: 50px;
+top: 223px;
+
+font-family: Yantramanav;
+font-style: normal;
+font-weight: bold;
+font-size: 100px;
+line-height: 130px;
+}
+
+/* Group 1 */
+.date {
+position: absolute;
+width: 86px;
+height: 35px;
+left: 50px;
+top: 28px;
+}
+
+
+/* Group 2 */
+.loc {
+position: absolute;
+width: 198px;
+height: 34px;
+left: 164px;
+top: 29px;
+}
+
+
+/* Group 3 */
+.time {
+position: absolute;
+width: 119px;
+height: 33px;
+left: 468px;
+top: 28px;
+}
