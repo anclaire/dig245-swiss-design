@@ -12,13 +12,30 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Yantramanav&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-<link rel="stylesheet" href="assets/css/styles.css">
+<!-- <link rel="stylesheet" href="assets/css/styles.css"> -->
 
 <style>
   .container-fluid { background-color:#F03227;}
+  .title {color: #DEE2D7;}
+  /* i don't know if these two colors are useful: */
   .black { color: #000113; }
   .red { color: #F03227;}
-  .title {color: #DEE2D7;}
+
+  /* sizes: xs, s  */
+    h1 { font-size: 3.5rem;}
+    h5 { font-size: .5rem;}
+
+    /* sizes: m */
+    @media (min-width: 768px) {
+      h1 { font-size: 6rem;}
+      h5 {font-size: 1.5rem;}
+    }
+    /* sizes: l, xl */
+    @media (min-width: 992px) {
+      h1 { font-size: 8rem; }
+      h5 { font-size: 1.5rem;}
+    }
+
 
 </style>
 
@@ -27,25 +44,24 @@
 
 <div class="container-fluid">
 
+  <br>
+  <br>
+
   <div class="row">
-    <div class=".col-12 .col-md-6 .col-lg-3">
+    <div class="col-3 col-md-2 col-lg-3 offset-1">
       <h5 class="date">tuesday<br>
         august 26, 1997<br>
       </h5>
     </div>
-  </div>
 
-    <div class="row">
-      <div class=".col-12 .col-md-6 .col-lg-3">
+      <div class="col-2 col-md-5 col-lg-3 offset-sm-1 offset-md-0 offset-lg-0">
         <h5 class="loc">
           at hammerstein ballroom<br>
           311 west 34th street, new york city
         </h5>
       </div>
-    </div>
 
-    <div class="row">
-      <div class=".col-12 .col-md-6 .col-lg-3">
+      <div class="col-3 col-md-3 col-lg-3 offset-sm-1 offset-md-1 offset-lg-1">
         <h5 class="time">
           8:00 pm show<br>
           with teenage fanclub
@@ -53,25 +69,43 @@
       </div>
     </div>
 
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
     <div class="row">
-      <div class=".col-12 .col-md-8">
+      <div class="col-3 col-md-8 col-lg-3 offset-1">
         <h1 class="title">radiohead</h1>
       </div>
     </div>
 
   <div class="row">
-    <div class=".col"></div>
-      <div class="rtop"></div>
-      <div class="rbottom"></div>
-      <div class="rleft"></div>
-      <div class="rright"></div>
-      <div class="ctri"></div>
-      <div class="rmask"></div>
+    <div class="col-10 offset-1">
+      <svg viewBox="0 0 540 574" fill="none" xmlns="http://www.w3.org/2000/svg" class="img-fluid">
+        <path d="M396.846 160.369V414.966H142.248L396.846 160.369Z" fill="#000113"/>
+        <rect x="140" width="399" height="149" fill="#000113"/>
+        <rect x="411" y="149" width="128" height="266" fill="#000113"/>
+        <rect y="426" width="540" height="147" fill="#000113"/>
+        <rect y="0" width="129" height="426" fill="#000113"/>
+      </svg>
     </div>
   </div>
 
-</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <div class="row">
+    <a href="https://www.swissted.com/products/radiohead-at-hammerstein-ballroom-1997">Swissted poster link</a>
+  </div>
 
+<br>
+
+</div>
 <!-- javascript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>

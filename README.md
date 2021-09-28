@@ -33,12 +33,12 @@ Complete the following to prepare for this assignment. See [Resources](#resource
 
 ## Instructions
 
-- [ ] Fork this repository and clone it to your `critical-web-design` folder on your machine.
-- [ ] Select an example from [Swissted](https://www.swissted.com/) or [search for one](https://duckduckgo.com/?q=swiss+design+examples&iax=images&ia=images) that speaks to you
+- [X] Fork this repository and clone it to your `critical-web-design` folder on your machine.
+- [X] Select an example from [Swissted](https://www.swissted.com/) or [search for one](https://duckduckgo.com/?q=swiss+design+examples&iax=images&ia=images) that speaks to you
 
 #### Design
-- [ ] Use **only the Type and Shape tools** in [Figma](https://figma.com) to recreate the design.
-- [ ] Create a [layout grid in Figma](https://help.figma.com/hc/en-us/articles/360040450513-Create-layout-grids-with-grids-columns-and-rows) to begin.
+- [X] Use **only the Type and Shape tools** in [Figma](https://figma.com) to recreate the design.
+- [X] Create a [layout grid in Figma](https://help.figma.com/hc/en-us/articles/360040450513-Create-layout-grids-with-grids-columns-and-rows) to begin.
 - [ ] Recreate the design for desktop, tablet, and mobile. Use an appropriate layout grid for each.
 - [ ] The parts of your layout that require columns should fit within the Bootstrap grid layout.
 - [ ] Refer to the [Web Typography & Swiss Design slides](https://docs.google.com/presentation/d/10cE33DrhL79NI6ypYxT8epK34e5a6ZE5j6Oj2Gk1krQ/edit#slide=id.g4f07d111a9_0_0) as needed.
@@ -49,7 +49,7 @@ Complete the following to prepare for this assignment. See [Resources](#resource
 - [ ] Use the [Bootstrap documentation](https://getbootstrap.com/docs/) as well as custom CSS for the columns in your design
 - [ ] Use CSS `position`, `border`, and `translate()` properties to create and rotate lines
 - [ ] Include a link to the image of the original design at the bottom of the page
-- [ ] Use JS `console.log()` to show credits: the original author of the design, and yourself  
+- [X] Use JS `console.log()` to show credits: the original author of the design, and yourself  
 
 #### Publish
 - [ ] [Save and refresh](https://github.com/omundy/learn-computing/blob/main/topics-keyboard-shortcuts.md#web-development-edit-save-refresh-loop) your work in the browser often to see your changes.
